@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Car, Menu, X } from 'lucide-react'
 
-import { Button } from '@/components/ui/button'
+
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
